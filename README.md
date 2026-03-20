@@ -169,3 +169,47 @@ window.RESOURCE = "products";             // Nombre del recurso en tu API
 
 - Repositorio en GitHub con visibilidad pública
 - El sistema levanta con un único comando
+
+
+----
+
+# API de tareas
+
+| Campo  | Tipo    | Restricciones              |
+| ------ | ------- | -------------------------- |
+| id     | integer | primary key, autoincrement |
+| title = campo1 | string  | requerido                  |
+| content = campo2 | string  | requerido                  |
+| author = campo3| string  | requerido                  |
+| priority = campo4 | integer | requerido                  |
+| rate = campo6 | float   | requerido                  |
+| complete = campo6 | boolean | requerido                  |
+
+## Endpoints
+
+`GET` `/api/tasks/` 
+
+`POST` `/api/tasks`
+
+- body
+
+```json
+{
+    "tasks" : [
+        {
+            // id: ,
+            title:
+            author
+            content
+            complete 
+            proprity
+            rate
+        }
+    ]
+}
+
+
+`PUT` `/api/tasks/`
+
+
+`DELETE` `/api/task/{id}`
