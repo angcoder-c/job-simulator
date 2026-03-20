@@ -1,6 +1,5 @@
 # Environment
 .env
-docker-compose.yml
 
 # Dependencies
 node_modules/
@@ -16,3 +15,8 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+
+api/node_modules/
+api/dist/
+api/.env
