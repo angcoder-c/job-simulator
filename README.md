@@ -177,6 +177,9 @@ window.RESOURCE = "products";             // Nombre del recurso en tu API
 
 > este laboratorio fue desarrollado con ayuda del plan de estudiante de Github Copilot, usando el mmodelo GPT 5.3-Codex
 
+![ScreencastFrom2026-03-1920-31-52-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/de94ab99-d279-461a-a782-e3d88b962e8c)
+
+
 | Campo  | Tipo    | Restricciones              |
 | ------ | ------- | -------------------------- |
 | id     | integer | primary key, autoincrement |
@@ -209,6 +212,7 @@ window.RESOURCE = "products";             // Nombre del recurso en tu API
         }
     ]
 }
+```
 
 
 `PUT` `/api/tasks/`
