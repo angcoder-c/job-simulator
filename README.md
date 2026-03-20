@@ -213,3 +213,12 @@ window.RESOURCE = "products";             // Nombre del recurso en tu API
 
 
 `DELETE` `/api/task/{id}`
+
+
+### Ejecutar 
+```bash
+docker compose up -d --build
+```
+
+- Frontend: `http://localhost:8080`
+- API: `http://localhost:8085/api/tasks/`
