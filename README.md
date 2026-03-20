@@ -175,6 +175,8 @@ window.RESOURCE = "products";             // Nombre del recurso en tu API
 
 # API de tareas
 
+> este laboratorio fue desarrollado con ayuda del plan de estudiante de Github Copilot, usando el mmodelo GPT 5.3-Codex
+
 | Campo  | Tipo    | Restricciones              |
 | ------ | ------- | -------------------------- |
 | id     | integer | primary key, autoincrement |
